@@ -46,7 +46,6 @@ console.log('Hash table (object):');
 console.time('hash table create');
 createHashTable(largeArray);
 console.timeEnd('hash table create');
-console.log(hashTable);
 
 function createStack(array) {
     for (let index = 0; index < array.length; index++) {
